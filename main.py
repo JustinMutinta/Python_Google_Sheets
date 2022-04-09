@@ -7,5 +7,9 @@ print(user_name[2])
 print(favorite_movie[2])
 
 for count in range(100):
-    movie = random.randint(0, len(favorite_movie) -1)
-    print(favorite_movie[movie])
+    first_name = random.randint(0, len(user_name) - 1)
+    last_name = random.randint(0, len(user_name) - 1)
+    movie = random.randint(0, len(favorite_movie) - 1)
+    age = random.randint(10, 100)
+    #print(favorite_movie[movie])
+    print(f"{user_name[first_name]} {user_name[last_name]}, who is {age} years old, has a huge love for the movie {favorite_movie[movie]}")
