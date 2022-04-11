@@ -1,4 +1,6 @@
 import random
+import time
+
 import gspread
 
 from source_data import user_name, favorite_movie
@@ -8,6 +10,7 @@ sh = sa.open("python-google")
 # google sheet is at: https://docs.google.com/spreadsheets/d/1LFSmJ5kSsY_qlH8EypKOFTqb3NesCN-VRxufq9jdTSE/edit#gid=0
 
 worksheet = sh.sheet1
+worksheet.clear()
 
 for num in range(1, 50):
     first_name = random.randint(0, len(user_name) - 1)
@@ -19,6 +22,8 @@ for num in range(1, 50):
     worksheet.update_cell(num, 1, full_name)
     worksheet.update_cell(num, 2, age)
     worksheet.update_cell(num, 3, movie)
+
+    time.sleep(3)
 
 """
     Limit of 93 SEND commands per minute. Any more and it will error out.
