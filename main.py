@@ -5,6 +5,7 @@ from source_data import user_name, favorite_movie
 
 sa = gspread.service_account("credentials-sheets.json")
 sh = sa.open("python-google")
+# google sheet is at: https://docs.google.com/spreadsheets/d/1LFSmJ5kSsY_qlH8EypKOFTqb3NesCN-VRxufq9jdTSE/edit#gid=0
 
 print(user_name[2])
 print(favorite_movie[2])
