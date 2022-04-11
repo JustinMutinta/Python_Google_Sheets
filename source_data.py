@@ -10,7 +10,8 @@ user_name = ['Sally', 'Mary', 'Susan', 'Joe', 'James',
              'Joseph', 'Charles', 'Daniel','Steven', 'Kenneth',
              'Carol', 'Amanda', 'Melissa', 'Kathleen', 'Helen',
              'Timothy', 'Brian', 'Gary', 'Jacob', 'Larry',
-             'Amy', 'Pamela', 'Emma', 'Samantha', 'Nicole',]
+             'Amy', 'Pamela', 'Emma', 'Samantha', 'Nicole',
+             'Jane', 'Robert', 'Wilson', 'Oscar', 'Amy']
 
 favorite_movie = ['Robocop', 'Terminator', 'Aliens', 'Alien', 'The 400 Blows',
                   'La Haine', 'The Godfather', 'Man bites Dog', 'The Departed', 'Umberto D.',
@@ -19,5 +20,5 @@ favorite_movie = ['Robocop', 'Terminator', 'Aliens', 'Alien', 'The 400 Blows',
                   'Fight Club', 'Batman Begins', 'Snatch', 'Gladiator', 'Amelia',
                   'The Good, the Bad and the Ugly', 'Saving Private Ryan', 'Coco',
                   'America History X', 'In Bruges', 'Crash', 'Big Fish', 'Seven Samurai',
-                  'Layer Cake', 'Coming to America', 'Friday', 'Thursday',]
+                  'Layer Cake', 'Coming to America', 'Friday', 'Thursday', 'Sounds of Music', 'Crash']
 

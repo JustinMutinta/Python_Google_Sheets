@@ -9,7 +9,7 @@ sh = sa.open("python-google")
 
 worksheet = sh.sheet1
 
-for num in range(1, 20):
+for num in range(1, 50):
     first_name = random.randint(0, len(user_name) - 1)
     last_name = random.randint(0, len(user_name) - 1)
     full_name = f"{user_name[first_name]} {user_name[last_name]}"
@@ -20,3 +20,7 @@ for num in range(1, 20):
     worksheet.update_cell(num, 2, age)
     worksheet.update_cell(num, 3, movie)
 
+"""
+    Limit of 93 SEND commands per minute. Any more and it will error out.
+    For three columns, this will be 31 rows.
+"""
